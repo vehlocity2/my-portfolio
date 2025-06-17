@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#313743];
+    @apply text-[#cbe957];
+    @apply pb-5;
+
+     @apply sm:px-2;
+}
