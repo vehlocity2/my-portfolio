@@ -6,7 +6,7 @@ import { MdContactMail } from "react-icons/md";
 import { GrBlog } from "react-icons/gr";
 
 const Navbar = () => {
-    const linkClasses = "w-36 h-28 border-2 border-[#cbe957] text-white rounded-md flex flex-col items-center justify-center transition duration-300 hover:bg-[#cbe957] hover:text-[#313743]  hover:shadow-md"
+    const linkClasses = "w-36 h-28 border-2 border-[#cbe957] text-white rounded-md flex flex-col items-center cursor-pointer justify-center transition duration-300 hover:bg-[#cbe957] hover:text-[#313743]  hover:shadow-md"
   return (
     <div className='grid grid-cols-2 gap-x-7 gap-y-5 mt-4 w-fit mx-auto '>
         <Link to="about" className={linkClasses}>

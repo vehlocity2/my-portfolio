@@ -9,7 +9,7 @@ import { FaTwitter } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className='bg-[#313743] h-screen text-[#cbe957] pb-5 sm:px-28'>
+    <div className='bg-[#313743] h-screen text-[#cbe957] pb-5 sm:px-28 relative'>
      <SubText />
      <MainBody />
      <div className='text-lg flex items-center gap-3 text-white pb-4 justify-center mt-8'>

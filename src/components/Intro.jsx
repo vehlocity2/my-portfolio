@@ -4,7 +4,7 @@ import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 
 const sentences = [
-    'Welcome to my page',
+    'Welcome to my page ',
     'I am Anthony Oshioke',
     'I am passionate about building web application,',
     'Crafting elegant user interfaces,',
@@ -54,12 +54,12 @@ const Intro = () => {
   },[isDeleting, charIndex, sentenceIndex, sentences])
 
   return (
-    <div className='sm:w-[55%] font-eduhand'>
+    <div className='sm:w-[55%] font-eduhand relative'>
         <h2 className='text-xl mb-3'>Hello 👋</h2>
-         <StarsSvg className="absolute top-[60px]   "/>
+         <StarsSvg className="pointer-events-none absolute top-[60px]   "/>
         <h1 className='text-3xl font-bold'>{text}</h1>
         <p className='mt-4 text-lg text-center'>Frontend developer with a creative mind and a strong focus on crafting smooth, beautiful interfaces — a strong foundation in modern web development, trained through hands-on courses and driven by a passion for great design and user experience.</p>
-        <StarsSvg className="absolute bottom-10"/>
+        <StarsSvg className="pointer-events-none absolute bottom-10"/>
         <div className="sm:hidden w-full h-[1px] bg-[#cbe957] mt-4"></div>
     </div>
   )
