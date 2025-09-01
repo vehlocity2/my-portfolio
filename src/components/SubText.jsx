@@ -38,7 +38,7 @@ const SubText = () => {
         <div className="w-3 h-3 mt-2 bg-[#cbe957] rounded-full"></div>
       </div>
       <div className="">
-        <a href="./Anthony Solomon Oshioke.pdf" download={"Anthony Solomon Oshioke.pdf"}>
+        <a href="./My Frontend Cv.pdf" download={"My Frontend Cv.pdf"}>
             <button className='border-2 border-[#cbe957] text-[#cbe957] hover:bg-[#cbe957] hover:text-[#313743] px-4 py-1'>My Cv</button>
         </a>
       </div>
